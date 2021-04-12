@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/chatex/static/css/main.ace6279d.chunk.css",
-    "main.js": "/chatex/static/js/main.c5853f91.chunk.js",
-    "main.js.map": "/chatex/static/js/main.c5853f91.chunk.js.map",
-    "runtime-main.js": "/chatex/static/js/runtime-main.1b569a95.js",
-    "runtime-main.js.map": "/chatex/static/js/runtime-main.1b569a95.js.map",
-    "static/js/2.92c086c8.chunk.js": "/chatex/static/js/2.92c086c8.chunk.js",
-    "static/js/2.92c086c8.chunk.js.map": "/chatex/static/js/2.92c086c8.chunk.js.map",
-    "static/js/3.38642717.chunk.js": "/chatex/static/js/3.38642717.chunk.js",
-    "static/js/3.38642717.chunk.js.map": "/chatex/static/js/3.38642717.chunk.js.map",
-    "index.html": "/chatex/index.html",
-    "static/css/main.ace6279d.chunk.css.map": "/chatex/static/css/main.ace6279d.chunk.css.map",
-    "static/js/2.92c086c8.chunk.js.LICENSE.txt": "/chatex/static/js/2.92c086c8.chunk.js.LICENSE.txt",
-    "static/media/Animate.css": "/chatex/static/media/temp.e65c5066.PNG"
+    "main.css": "/chatex_client/static/css/main.98153214.chunk.css",
+    "main.js": "/chatex_client/static/js/main.c5853f91.chunk.js",
+    "main.js.map": "/chatex_client/static/js/main.c5853f91.chunk.js.map",
+    "runtime-main.js": "/chatex_client/static/js/runtime-main.e49ad7ba.js",
+    "runtime-main.js.map": "/chatex_client/static/js/runtime-main.e49ad7ba.js.map",
+    "static/js/2.39e537aa.chunk.js": "/chatex_client/static/js/2.39e537aa.chunk.js",
+    "static/js/2.39e537aa.chunk.js.map": "/chatex_client/static/js/2.39e537aa.chunk.js.map",
+    "static/js/3.38642717.chunk.js": "/chatex_client/static/js/3.38642717.chunk.js",
+    "static/js/3.38642717.chunk.js.map": "/chatex_client/static/js/3.38642717.chunk.js.map",
+    "index.html": "/chatex_client/index.html",
+    "static/css/main.98153214.chunk.css.map": "/chatex_client/static/css/main.98153214.chunk.css.map",
+    "static/js/2.39e537aa.chunk.js.LICENSE.txt": "/chatex_client/static/js/2.39e537aa.chunk.js.LICENSE.txt",
+    "static/media/Animate.css": "/chatex_client/static/media/temp.e65c5066.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.1b569a95.js",
-    "static/js/2.92c086c8.chunk.js",
-    "static/css/main.ace6279d.chunk.css",
+    "static/js/runtime-main.e49ad7ba.js",
+    "static/js/2.39e537aa.chunk.js",
+    "static/css/main.98153214.chunk.css",
     "static/js/main.c5853f91.chunk.js"
   ]
 }

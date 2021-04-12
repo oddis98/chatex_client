@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chatex_client/static/css/main.98153214.chunk.css",
-    "main.js": "/chatex_client/static/js/main.bd9dfc2e.chunk.js",
-    "main.js.map": "/chatex_client/static/js/main.bd9dfc2e.chunk.js.map",
+    "main.js": "/chatex_client/static/js/main.b295092f.chunk.js",
+    "main.js.map": "/chatex_client/static/js/main.b295092f.chunk.js.map",
     "runtime-main.js": "/chatex_client/static/js/runtime-main.e49ad7ba.js",
     "runtime-main.js.map": "/chatex_client/static/js/runtime-main.e49ad7ba.js.map",
     "static/js/2.39e537aa.chunk.js": "/chatex_client/static/js/2.39e537aa.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.e49ad7ba.js",
     "static/js/2.39e537aa.chunk.js",
     "static/css/main.98153214.chunk.css",
-    "static/js/main.bd9dfc2e.chunk.js"
+    "static/js/main.b295092f.chunk.js"
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/chatex/static/css/main.ace6279d.chunk.css",
+    "main.js": "/chatex/static/js/main.c5853f91.chunk.js",
+    "main.js.map": "/chatex/static/js/main.c5853f91.chunk.js.map",
+    "runtime-main.js": "/chatex/static/js/runtime-main.1b569a95.js",
+    "runtime-main.js.map": "/chatex/static/js/runtime-main.1b569a95.js.map",
+    "static/js/2.92c086c8.chunk.js": "/chatex/static/js/2.92c086c8.chunk.js",
+    "static/js/2.92c086c8.chunk.js.map": "/chatex/static/js/2.92c086c8.chunk.js.map",
+    "static/js/3.38642717.chunk.js": "/chatex/static/js/3.38642717.chunk.js",
+    "static/js/3.38642717.chunk.js.map": "/chatex/static/js/3.38642717.chunk.js.map",
+    "index.html": "/chatex/index.html",
+    "static/css/main.ace6279d.chunk.css.map": "/chatex/static/css/main.ace6279d.chunk.css.map",
+    "static/js/2.92c086c8.chunk.js.LICENSE.txt": "/chatex/static/js/2.92c086c8.chunk.js.LICENSE.txt",
+    "static/media/Animate.css": "/chatex/static/media/temp.e65c5066.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b569a95.js",
+    "static/js/2.92c086c8.chunk.js",
+    "static/css/main.ace6279d.chunk.css",
+    "static/js/main.c5853f91.chunk.js"
+  ]
+}

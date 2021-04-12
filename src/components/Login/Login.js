@@ -42,7 +42,7 @@ export default (props) => {
   const history = useHistory();
   const create = () => {
     history.push({
-      pathname: "/create",
+      pathname: "/https://oddis98.github.io/create",
     });
   };
 
@@ -53,7 +53,7 @@ export default (props) => {
         if (!data.success) {
           return;
         }
-        history.push("/users/" + data.id);
+        history.push("/https://oddis98.github.io/users/" + data.id);
       });
     return () => {};
   });

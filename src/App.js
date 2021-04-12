@@ -44,19 +44,19 @@ function App() {
       <Router>
         <Nav />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/https://oddis98.github.io">
             <Home />
           </Route>
-          <Route exact path="/home">
+          <Route exact path="/https://oddis98.github.io/home">
             <LandingPage />
           </Route>
-          <Route exact path="/create">
+          <Route exact path="/https://oddis98.github.io/create">
             <CreateUser />
           </Route>
-          <Route exact path="/users">
+          <Route exact path="/https://oddis98.github.io/users">
             <GetAllUsers />
           </Route>
-          <Route path="/users/:id">
+          <Route path="/https://oddis98.github.io/users/:id">
             <UserPage />
           </Route>
         </Switch>

@@ -88,7 +88,7 @@ const UserPage = () => {
       .then((response) => response.json())
       .then((data) => {
         if (data.success) {
-          history.push("/");
+          history.push("/https://oddis98.github.io");
         }
       });
   };
@@ -99,7 +99,7 @@ const UserPage = () => {
         .then((response) => response.json())
         .then((data) => {
           if (!data.success) {
-            history.push("/");
+            history.push("/https://oddis98.github.io/");
           } else {
             setEmail(data.email);
             setAuth(data.auth);

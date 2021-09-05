@@ -24,7 +24,8 @@
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-  background: #1a1a1a;
+  background: url("./Images/Component.png");
+  background-size: cover;
 }
 
 h3,
@@ -101,6 +102,7 @@ p {
 
 .infoHeader {
   font-size: 5rem;
+  cursor: pointer;
 }
 
 .info {

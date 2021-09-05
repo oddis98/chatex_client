@@ -36,8 +36,10 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h2>ChatEx</h2>
-      <h2 id="subText">Free. Private. Simple.</h2>
+      <h2 style={{ cursor: "default" }}>ChatEx</h2>
+      <h2 id="subText" style={{ cursor: "default" }}>
+        Free. Private. Simple.
+      </h2>
     </div>
   );
 };

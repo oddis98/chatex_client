@@ -20,6 +20,7 @@ const SimpleDialogPrep = (props) => {
     try {
       const requestOptions = {
         method: "POST",
+        credentials: "include",
         headers: {
           "Content-Type": "application/json",
         },
@@ -27,7 +28,7 @@ const SimpleDialogPrep = (props) => {
           friend: friend.target.value.toLowerCase(),
         }),
       };
-      fetch("/chatex_client/users/addFriend", requestOptions)
+      fetch("https://chatex2.herokuapp.com/users/addFriend", requestOptions)
         .then((response) => response.json())
         .then((data) => {
           if (!data.success) {

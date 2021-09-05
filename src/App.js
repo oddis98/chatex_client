@@ -9,6 +9,7 @@ import LandingPage from "./components/LandingPage.js";
 import UserPage from "./components/UserPage.js";
 import Home from "./components/Home/Home.js";
 import Nav from "./components/Nav.js";
+import Redirect from "./components/Redirect.js";
 
 function App() {
   const theme = createMuiTheme({
@@ -38,12 +39,16 @@ function App() {
       ].join(","),
     },
   });
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router>
         <Nav />
         <Switch>
+          <Route exact path="/">
+            <Redirect />
+          </Route>
           <Route exact path="/chatex_client">
             <Home />
           </Route>

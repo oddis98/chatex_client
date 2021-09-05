@@ -9,15 +9,17 @@ export default (props) => {
   const handleSubmit = (values) => {
     const requestOptions = {
       method: "POST",
+      credentials: "include",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         email: values.email,
         password: values.password,
       }),
     };
-    fetch("https://chatex2.herokuapp.comusers/email/" + values.email)
+    fetch("https://chatex2.herokuapp.com/users/email/" + values.email)
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         try {
           const id = data["user"]["_id"];
           const email = data["user"]["email"];
@@ -47,7 +49,12 @@ export default (props) => {
   };
 
   useEffect(() => {
-    fetch("https://chatex2.herokuapp.com/login")
+    const requestOptions = {
+      method: "GET",
+      credentials: "include",
+      headers: { "Content-Type": "application/json" },
+    };
+    fetch("https://chatex2.herokuapp.com/login", requestOptions)
       .then((response) => response.json())
       .then((data) => {
         if (!data.success) {

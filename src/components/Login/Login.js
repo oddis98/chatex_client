@@ -16,14 +16,14 @@ export default (props) => {
         password: values.password,
       }),
     };
-    fetch("https://chatex2.herokuapp.com/users/email/" + values.email)
+    fetch("/users/email/" + values.email)
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
         try {
           const id = data["user"]["_id"];
           const email = data["user"]["email"];
-          fetch("https://chatex2.herokuapp.com/login/" + id, requestOptions)
+          fetch("/login/" + id, requestOptions)
             .then((response) => response.json())
             .then((data) => {
               if (!data.success) {
@@ -54,7 +54,7 @@ export default (props) => {
       credentials: "include",
       headers: { "Content-Type": "application/json" },
     };
-    fetch("https://chatex2.herokuapp.com/login", requestOptions)
+    fetch("/login", requestOptions)
       .then((response) => response.json())
       .then((data) => {
         if (!data.success) {

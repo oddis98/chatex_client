@@ -28,7 +28,7 @@ const SimpleDialogPrep = (props) => {
           friend: friend.target.value.toLowerCase(),
         }),
       };
-      fetch("https://chatex2.herokuapp.com/users/addFriend", requestOptions)
+      fetch("/users/addFriend", requestOptions)
         .then((response) => response.json())
         .then((data) => {
           if (!data.success) {

@@ -8,18 +8,12 @@ const MessageBoard = (props) => {
       "It's so quiet in here...": ["", "", "#ffffff"],
     },
     {
-      "Try adding a friend by clicking the '+' button under 'Friends', or invite an existing friend by clicking on their respective e-mail!": [
-        "",
-        "",
-        "#ffffff",
-      ],
+      "Try adding a friend by clicking the '+' button under 'Friends', or invite an existing friend by clicking on their respective e-mail!":
+        ["", "", "#ffffff"],
     },
     {
-      "You may also remove a friend by clicking the 'x' button next to their e-mail.": [
-        "",
-        "",
-        "#ffffff",
-      ],
+      "You may also remove a friend by clicking the 'x' button next to their e-mail.":
+        ["", "", "#ffffff"],
     },
   ]);
   const [scrollText, setScrollText] = useState("Scroll to Top \u2191");
@@ -36,7 +30,7 @@ const MessageBoard = (props) => {
           authorization: "Bearer " + props.auth,
         },
       };
-      fetch("https://chatex2.herokuapp.com/room/" + props.room, requestOptions)
+      fetch("/room/" + props.room, requestOptions)
         .then((response) => response.json())
         .then((data) => {
           let text = [];
@@ -75,7 +69,7 @@ const MessageBoard = (props) => {
     if (props.room) {
       updateMessageBoard();
 
-      var socket = io.connect("https://chatex2.herokuapp.com/", {
+      var socket = io.connect("/", {
         reconnect: true,
       });
 
@@ -105,7 +99,8 @@ const MessageBoard = (props) => {
     }
   };
 
-  const regex = /[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&//=]*)/;
+  const regex =
+    /[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&//=]*)/;
 
   return (
     <div

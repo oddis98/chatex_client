@@ -19,7 +19,7 @@ export default (props) => {
         password: hashedPassword,
       }),
     };
-    fetch("https://chatex2.herokuapp.com/users", requestOptions)
+    fetch("/users", requestOptions)
       .then((response) => response.json())
       .then((data) => {
         if (!data.success) {

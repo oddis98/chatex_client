@@ -4,7 +4,7 @@ import CreateUser from "./components/CreateUser.js";
 import GetAllUsers from "./components/GetAllUsers.js";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import LandingPage from "./components/LandingPage.js";
 import UserPage from "./components/UserPage.js";
 import Home from "./components/Home/Home.js";
